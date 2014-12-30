@@ -1,0 +1,95 @@
+﻿body {
+    align-content: center;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rule {
+    width: 25%;
+    clear: both;
+    height: 1px;
+    background: black;
+    border: none;
+
+}
+
+#myname {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: .5em;
+}
+
+#mainnav {
+    text-align: center;
+    margin-top: 1.2em;
+}
+
+#mainnav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 1em;
+}
+
+#mainnav a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
