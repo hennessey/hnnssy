@@ -110,11 +110,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\BusTimes.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BusTimes.feature</DependentUpon>
+    </Compile>
     <Compile Include="Features\Core.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Core.feature</DependentUpon>
     </Compile>
+    <Compile Include="Steps\BusTimesSteps.cs" />
     <Compile Include="Steps\CoreSteps.cs" />
     <Compile Include="PageObjects\homepage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -123,6 +129,10 @@
     <Content Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Features\BusTimes.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>BusTimes.feature.cs</LastGenOutput>
+    </None>
     <None Include="Features\Core.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Core.feature.cs</LastGenOutput>
